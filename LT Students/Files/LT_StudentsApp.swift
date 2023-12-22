@@ -20,28 +20,23 @@ struct LT_ReviewsApp: App {
     
     var body: some Scene {
         WindowGroup {
-            //Main()
-            //TeacherView()
-            //FeedbackView(showMenuView: .constant(false), showFeedbackView: .constant(true))
-            MenuView()
+            Main()
                 .onReceive(NotificationCenter.default.publisher(for: UIApplication.didBecomeActiveNotification)) { _ in
-//                    ATTrackingManager.requestTrackingAuthorization { status in
-//                        switch status {
-//                            case .authorized:
-//                                ContentView.canShowPersonalizedAds = true
-//                                print("w")
-//                            case .denied:
-//                                ContentView.canShowPersonalizedAds = false
-//                            case .notDetermined:
-//                                ContentView.canShowPersonalizedAds = false
-//                            case .restricted:
-//                                ContentView.canShowPersonalizedAds = false
-//                            @unknown default:
-//                                ContentView.canShowPersonalizedAds = false
-//                        }
+                    ATTrackingManager.requestTrackingAuthorization { status in
+                        switch status {
+                            case .authorized:
+                                ContentView.canShowPersonalizedAds = true
+                            case .denied:
+                                ContentView.canShowPersonalizedAds = false
+                            case .notDetermined:
+                                ContentView.canShowPersonalizedAds = false
+                            case .restricted:
+                                ContentView.canShowPersonalizedAds = false
+                            @unknown default:
+                                ContentView.canShowPersonalizedAds = false
+                        }
                         
                         GADMobileAds.sharedInstance().start(completionHandler: nil)
-//                    }
                 }
         }
     }
