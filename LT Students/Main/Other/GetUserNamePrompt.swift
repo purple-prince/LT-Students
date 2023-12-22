@@ -52,9 +52,7 @@ struct GetUserNamePrompt: View {
                     }
                 }
                 
-                
-                
-                Text("We just want to make sure you go to Lane 😀. After verifying, your app activity will not be tracked, and you'll stay anonymous.")
+                Text("We just want to make sure you go to our school 😀. After verifying, your app activity will not be tracked, and you'll stay anonymous.")
                     .font(.footnote)
                     .padding(.top)
                 
@@ -74,9 +72,7 @@ struct GetUserNamePrompt: View {
                     }
                 })
             }
-            .padding()
-            
-               
+            .padding() 
         }
         .aspectRatio(5/5, contentMode: .fit)
         .padding(20)
