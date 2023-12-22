@@ -44,16 +44,13 @@ extension AboutView {
         VStack {
             
             DisclosureGroup(content: {
-                Text("""
-You're probably wondering \"😭😭 Bruh they rly have a whole app for this sh*t school 💀💀 \". Well, other than the fact that we can monetize it (thank you for dealing with the ads), our goal is simply to interconnect Lane's community.
-
-    Lane already has a newspaper, athletics accounts, \"tea\" accounts, and so on. Why not join them together in an app?
+                Text(""" removed
 """)
                 .fontWeight(.light)
                 .font(.callout)
                 .multilineTextAlignment(.leading)
                 .padding(.vertical)
-            }, label: {//😭💀
+            }, label: {
                 Text("Purpose")
                     .fontWeight(.medium)
                     .font(.title)
@@ -62,8 +59,7 @@ You're probably wondering \"😭😭 Bruh they rly have a whole app for this sh*
             
             DisclosureGroup(content: {
                 Text("""
-Hint: A few Lane Tech sophmores
-""")
+removed""")
                 .fontWeight(.light)
                 .font(.callout)
                 .multilineTextAlignment(.leading)
@@ -127,7 +123,7 @@ toes here
     }
     
     func openInstagramProfile() {
-        let hook = "https://www.instagram.com/lt.app/"
+        let hook = "https://www.instagram.com/removed/"
         let url = URL(string: hook)!
         if UIApplication.shared.canOpenURL(url) {
             UIApplication.shared.open(url)
