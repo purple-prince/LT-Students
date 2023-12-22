@@ -36,13 +36,7 @@ extension DeveloperView {
                 .multilineTextAlignment(.center)
             
             Text("""
-1. Getting this app on android devices
-
-2. Expanding this app for other schools
-
-3. Maintaining this app. I'm a sophmore right now, so in a few years I'll be in college, and won't be able to maintain the app myself.
-
-If you can help with any of these, or if you're just looking to get involved, please contact me at lt.app.contact@gmail.com !
+removed
 """)
                 .foregroundColor(.white)
                 .font(.body)
