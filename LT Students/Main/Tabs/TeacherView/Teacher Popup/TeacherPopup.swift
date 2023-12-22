@@ -21,9 +21,7 @@ struct TeacherPopup: View {
     @State var ratingsHaveLoaded: Bool = false
     @State var reviewsHaveLoaded: Bool = false
     
-    @State var profilePicUrl: URL? = nil
-    
-    //let naughtyWords: [String] = ["cunt", "idiot", "cock", "penis", "pussy", "fuck", "shit", "vagina", "dick", "asshole", "wanker", "motherfuckcer", "bastard", "tit" "tits", "boobs", "sex", "NWORDNWORDNWORDNWORDNWORD"] hh hgg 5 gg65 t gg55 t67 tg7t t
+    @State var profilePicUrl: URL? = nil    
 }
 
 //BODY
@@ -55,11 +53,6 @@ extension ReviewsSectionView {
         ZStack {
             
             ZStack {
-//
-//                RoundedRectangle(cornerRadius: 12)
-//                    .foregroundColor(.black)
-//                    .blur(radius: 8)
-                
                 RoundedRectangle(cornerRadius: 12)
                     .foregroundColor(.white)
                     .brightness(-0.15)
