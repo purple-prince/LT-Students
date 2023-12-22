@@ -48,7 +48,7 @@ class HapticManager {
     }
 }
 
-final class RewardedAd {//ca-app-pub-3940256099942544/1712485313 //ca-app-pub-3940256099942544/6978759866
+final class RewardedAd 
     private let rewardId = "ca-app-pub-3940256099942544/1712485313" // TODO: replace this with your own Ad ID
     
     var rewardedAd: GADRewardedAd?
