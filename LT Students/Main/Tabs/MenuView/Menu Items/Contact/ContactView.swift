@@ -115,7 +115,7 @@ extension ContactView {
     }
     
     func openInstagramProfile() {
-        let hook = "https://www.instagram.com/lt.app/"
+        let hook = "https://www.instagram.com/removed/"
         let url = URL(string: hook)!
         if UIApplication.shared.canOpenURL(url) {
             UIApplication.shared.open(url)
