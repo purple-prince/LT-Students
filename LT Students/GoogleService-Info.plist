@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>488826395052-5dhf6884940fuv9kdpee272cqpjejb1c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.488826395052-5dhf6884940fuv9kdpee272cqpjejb1c</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBmyXPcxKkMJDPSj0PBV1PEKtrXKbxDA6g</string>
+	<key>GCM_SENDER_ID</key>
+	<string>488826395052</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.StoicSoftware.LT-Students</string>
+	<key>PROJECT_ID</key>
+	<string>lt-reviews</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lt-reviews.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:488826395052:ios:75d28ff74f399c842f8209</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-7567171231483016~3552573876</string>
+</dict>
+</plist>
